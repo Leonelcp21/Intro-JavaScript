@@ -53,3 +53,12 @@ let grupete= alumnos.concat(alumnas)
 // invierte orden
 
 grupete.reverse()
+
+// ordenar los elementos de un array
+
+grupete.sort()
+
+//Extrae una porcion del array sobre el que se llama y devuelve un nuevo array
+
+let alumnosespeciales = alumnos.slice(1,3)//posicion inicial y posicion final
+
