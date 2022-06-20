@@ -1,11 +1,11 @@
 // for
 
-for(let i = 0;i < 10;i++){
+// for(let i = 0;i < 10;i++){
 
-    console.log(i); 
+//     console.log(i); 
     
-        //acciones
-    }
+//         //acciones
+//     }
     
     //tarea
     //Ingresar la tabla que queremos realizar
@@ -14,10 +14,10 @@ for(let i = 0;i < 10;i++){
     let tabla=parseInt(prompt("Ingrese el numero de la tabla a calcular"))
     
     if(isNaN(tabla)) {
-        console.error("Debe enviar un numero, pezon")
+        console.error("Debe enviar un numero")
     } else {
     
-    for (let i=1; i<=10; i++){
+    for (let i=1; i<=10; i++){  
     
         console.log(`${tabla} x ${i} = ${tabla * i}`) 
     }
